@@ -1,0 +1,66 @@
+.btn {
+    color: orangered;
+    border-color: orangered;
+  }
+  
+  .btn:hover {
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+  }
+  /* Estilos para las tarjetas */
+.card {
+  width: 300px; /* Ajusta el tamaño de las tarjetas */
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajuste para las imágenes */
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Ajusta el tamaño de la imagen */
+  object-fit: cover; /* Mantiene el aspecto de la imagen */
+}
+
+/* Estilo del contenido de la tarjeta */
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el botón */
+.btn {
+  background-color: #ff6600; /* Cambia el color del botón */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+  
